@@ -12,6 +12,7 @@ openai_api_key = os.environ['OPENAI_API_KEY']
 
 # App framework
 st.title('🔗🔥 Chain Reaction')
+st.subheader('Enter a topic of your choice to generate a YouTube title along with video script')
 prompt = st.text_input('Enter your topic here')
 
 # Prompt templates
